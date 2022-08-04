@@ -1,13 +1,11 @@
 import React from "react";
 
 function Week(){
-  const day1 = "Sunday";
-  const day7 = "Saturday"
   return (
     <React.Fragment>
       <h3>Weekly Schedule:</h3>
-      <h3>{day1} through {day7}</h3>
-      <p><em>Firebase entries not saving!</em></p>
+      <h3>{props.day} @ {props.location}</h3>
+      <p><em>You can find me at booth {props.booth} from {props.hours}!</em></p>
       <hr/>
     </React.Fragment>
   );
