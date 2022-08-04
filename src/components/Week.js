@@ -1,6 +1,6 @@
 import React from "react";
 
-function Week(){
+function Week(props){
   return (
     <React.Fragment>
       <h3>Weekly Schedule:</h3>
