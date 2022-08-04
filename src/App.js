@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+function App(){
+  const marketSchedule = "Sunday-Saturday";
+  const availableProduce = "Varies by Season";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <h1>Rosie's Organics</h1>
+      <h3>Farmer's Market</h3>
+      <h3>{marketSchedule}: Location and Produce {availableProduce}</h3>
+      <p><em>Firebase entries not saving!</em></p>
+      <hr/>
+    </React.Fragment>
   );
 }
 
