@@ -4,7 +4,11 @@ import Week from "./Week";
 
 function MarketControl(){
   return (
-    <Week />
+    <Week 
+      day="Sunday"
+      location="Lents International"
+      hours="9:00am - 2:00pm"
+      booth="4A"/>
   );
 }
 
