@@ -1,9 +1,10 @@
 import React from "react";
-import SeasonalProduce from "./SeasonalProduce";
+import Week from "./Week";
+// import SeasonalProduce from "./SeasonalProduce";
 
 function MarketControl(){
   return (
-    <SeasonalProduce />
+    <Week />
   );
 }
 
