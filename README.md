@@ -18,12 +18,12 @@
 ### Setup/Installation Requirements
 
 * Clone or download this repository onto your desktop.
-`https://github.com/rosiegardner/react-farmers-market.git`
+* `https://github.com/rosiegardner/react-farmers-market.git`
 * Navigate to top-level of directory.
 * Open VScode or Text Editor of your choosing.
 * In terminal run:
-`npm install`
-`npm run start`
+* `npm install`
+* `npm run start`
 
 ### Known Bugs
 
